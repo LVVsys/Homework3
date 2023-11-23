@@ -56,6 +56,14 @@ public class Main {
         int brownPaintCans = brownPaintForOneClass * allClassroom;
         System.out.println("В школе, где " + allClassroom + " классов, нужно " + whitePaintCans + " банок белой краски и " + brownPaintCans + " банок коричневой краски");
 
+        int bananas = 5*80;
+        int milk = 2*105;
+        int icecream = 2*100;
+        int eggs = 4*70;
+        double weightBreakfastInGr = bananas + milk + icecream + eggs;
+        double weightBreakfastInKg = weightBreakfastInGr/1000;
+        System.out.println("Вес спорт завтрака " + weightBreakfastInGr + " гр.");
+        System.out.println("Вес спорт завтрака " + weightBreakfastInKg + " Кг.");
 
 
     }
