@@ -71,6 +71,26 @@ public class Main {
         System.out.println("За " + if250PerDay + " дней, если худеть на 250гр. в день");
         System.out.println("За " + if500PerDay + " дней, если худеть на 500гр. в день");
 
+        int salaryMaria = 67760;
+        int salaryDenis = 83690;
+        int salaryCristina = 76230;
+        float increaseMaria = (salaryMaria * 0.1f) + salaryMaria;    //зп после повышения.
+        int revenueMaria = salaryMaria * 12;                         //годовой доход.
+        float revAfterIncMaria = increaseMaria * 12;                 //годовой доход после повышения.
+        float diffMaria = revAfterIncMaria - revenueMaria;           //разница до и после повышения.
+        float increaseDenis = (salaryDenis * 0.1f) + salaryDenis;    //зп после повышения.
+        int revenueDenis = salaryDenis * 12;                         //годовой доход.
+        float revAfterIncDenis = increaseDenis * 12;                 //годовой доход после повышения.
+        float diffDenis = revAfterIncDenis - revenueDenis;           //разница до и после повышения.
+        float increaseCristina = (salaryCristina * 0.1f) + salaryCristina;    //зп после повышения.
+        int revenueCristina = salaryCristina * 12;                         //годовой доход.
+        float revAfterIncCristina = increaseCristina * 12;                 //годовой доход после повышения.
+        float diffCristina = revAfterIncCristina - revenueCristina;           //разница до и после повышения.
+
+        System.out.println("Маша теперь получает " +increaseMaria+ " рублей. Годовой доход вырос на " +diffMaria+ " рублей");
+        System.out.println("Денис теперь получает " +increaseDenis+ " рублей. Годовой доход вырос на " +diffDenis+ " рублей");
+        System.out.println("Кристина теперь получает " +increaseCristina+ " рублей. Годовой доход вырос на " +diffCristina+ " рублей");
+
 
     }
 }
