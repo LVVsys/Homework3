@@ -29,6 +29,12 @@ public class Main {
         System.out.println(sixthNumber);
         System.out.println(seventhNumber);
 
+        int studentsLydPav = 23;
+        int studentsAnnSerg = 27;
+        int studentsEkAndr = 30;
+        int sheetsOfPaper = 480;
+        int sheetsToTheStudent = sheetsOfPaper/(studentsLydPav+studentsEkAndr+studentsAnnSerg);
+        System.out.println("На каждого ученика рассчитано " + sheetsToTheStudent + " листов бумаги");
 
 
     }
