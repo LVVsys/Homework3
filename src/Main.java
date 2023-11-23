@@ -47,5 +47,16 @@ public class Main {
         System.out.println("За 3 дня машина произвела " + factBottIn3Days + " штук бутылок");
         System.out.println("За месяц машина произвела " + factBottIn30Days + " штук бутылок");
 
+        short totalCansPaint = 120;
+        short whitePaintForOneClass = 2;
+        short brownPaintForOneClass = 4;
+        int allCansForOneClass = whitePaintForOneClass + brownPaintForOneClass;
+        int allClassroom = totalCansPaint/allCansForOneClass;
+        int whitePaintCans = whitePaintForOneClass * allClassroom;
+        int brownPaintCans = brownPaintForOneClass * allClassroom;
+        System.out.println("В школе, где " + allClassroom + " классов, нужно " + whitePaintCans + " банок белой краски и " + brownPaintCans + " банок коричневой краски");
+
+
+
     }
 }
