@@ -36,6 +36,16 @@ public class Main {
         int sheetsToTheStudent = sheetsOfPaper/(studentsLydPav+studentsEkAndr+studentsAnnSerg);
         System.out.println("На каждого ученика рассчитано " + sheetsToTheStudent + " листов бумаги");
 
+        int factBottIn2Min = 16;
+        int x1Min = factBottIn2Min/2;
+        int factBottIn20Min = x1Min * 20;
+        int factBoottIn24H = x1Min * 60 * 24;
+        int factBottIn3Days = factBoottIn24H * 3;
+        int factBottIn30Days = factBottIn3Days * 10;
+        System.out.println("За 20 минут машина произвела " + factBottIn20Min + " штук бутылок");
+        System.out.println("За сутки машина произвела " + factBoottIn24H + " штук бутылок");
+        System.out.println("За 3 дня машина произвела " + factBottIn3Days + " штук бутылок");
+        System.out.println("За месяц машина произвела " + factBottIn30Days + " штук бутылок");
 
     }
 }
