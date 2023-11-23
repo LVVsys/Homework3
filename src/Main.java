@@ -65,6 +65,12 @@ public class Main {
         System.out.println("Вес спорт завтрака " + weightBreakfastInGr + " гр.");
         System.out.println("Вес спорт завтрака " + weightBreakfastInKg + " Кг.");
 
+        int goal = 7*1000;
+        int if250PerDay = goal/250;
+        int if500PerDay = goal/500;
+        System.out.println("За " + if250PerDay + " дней, если худеть на 250гр. в день");
+        System.out.println("За " + if500PerDay + " дней, если худеть на 500гр. в день");
+
 
     }
 }
